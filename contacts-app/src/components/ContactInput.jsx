@@ -26,6 +26,22 @@ class ContactInput extends React.Component {
 
   // kode lain disembunyikan
 
+  onNameChangeEventHandler(event) {
+    this.setState(() => {
+      return {
+        name: event.target.value,
+      }
+    });
+  }
+  
+  onTagChangeEventHandler(event) {
+    this.setState(() => {
+      return {
+        tag: event.target.value,
+      }
+    });
+  }
+
   onSubmitEventHandler(event) {
     event.preventDefault();
 
