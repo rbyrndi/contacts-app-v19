@@ -46,7 +46,17 @@ class ContactInput extends React.Component {
     event.preventDefault();
 
     const { addContact } = this.state.validatedProps;
-    addContact(this.state);
+    addContact({
+      name: this.state.name,
+      tag: this.state.tag,
+    });
+
+    this.setState(() => {
+      return {
+        name: '',
+        tag: '',
+      }
+    });
   }
 
   render() {

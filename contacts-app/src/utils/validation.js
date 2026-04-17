@@ -3,7 +3,7 @@ export function validateProps(schema, props, componentName) {
 
     if (validationResult.error) {
         const { details } = validationResult.error;
-        details.forEach((detail) => console.warn(`[${componentName}] Validation error: ${error.message}`));
+        details.forEach((detail) => console.warn(`[${componentName}] Validation error: ${detail.message}`));
     }
 
     return validationResult.value;

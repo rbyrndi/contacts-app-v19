@@ -11,7 +11,8 @@
   "dependencies": {
     "joi": "^18.1.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.14.1"
   },
   "devDependencies": {
     "@types/react": "^19.1.13",
