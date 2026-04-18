@@ -205,6 +205,13 @@ button {
   transform: translateY(-1px);
 }
 
+.daftar-kontak {
+  margin-top: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+}
+
 .search-bar {
   background-color: #f8fafc;
 }
